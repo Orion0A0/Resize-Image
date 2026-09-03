@@ -16,7 +16,7 @@
 #define DEFAULT_SOURCE "/home/orion/Documents/src/processImg/source"
 
 
-void resizeAll(std::filesystem::path&, std::filesystem::path&, int, int);
+void resizeAll(const std::filesystem::path& source, const std::filesystem::path& destination, const int width, const int height);
 
 
 int main(const int argc, char* argv[])
